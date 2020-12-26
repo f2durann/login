@@ -21,7 +21,9 @@
         </div>
       </div>
       <div [ngClass]="sonuc.islem? 'alert alert-success':'alert alert-danger'" *ngIf="sonuc.mesaj?.length>0">
-        {{sonuc.mesaj}}</div>
+        <!--sonuc.mesaj.lenght>0 olursa kabul ediyor.-->
+        {{sonuc.mesaj}}
+      </div>
     </div>
   </div>
 </div>
